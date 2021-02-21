@@ -1,1 +1,2 @@
-## Template for repositories with home works of pro course students
+Hey!
+I'm Kristina and soon I'll be a front-end developer!
