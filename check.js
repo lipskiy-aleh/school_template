@@ -6,3 +6,7 @@ user.forEach((value) => {
     user.push(10)
   }
 })
+
+const dfr = 7
+
+console.log(dfr)
