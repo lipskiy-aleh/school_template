@@ -7,6 +7,6 @@ user.forEach((value) => {
   }
 })
 
-const dfr = 7
+const dfer = 7
 
-console.log(dfr)
+console.log(dfer)
