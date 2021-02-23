@@ -1,1 +1,1 @@
-## Template for repositories with home works of pro course students
+## ANDREY HIRSA
