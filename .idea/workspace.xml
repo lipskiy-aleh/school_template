@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a57014d8-43c5-4d53-9133-114fac931cee" name="Default Changelist" comment="inh 2">
+    <list default="true" id="a57014d8-43c5-4d53-9133-114fac931cee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/inheritance/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/inheritance/index.js" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <workItem from="1614148074389" duration="6625000" />
       <workItem from="1614254014391" duration="1254000" />
       <workItem from="1614255308580" duration="8219000" />
-      <workItem from="1614316222552" duration="4565000" />
+      <workItem from="1614316222552" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="task git">
       <created>1613738926843</created>
@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613989943129</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inh 2">
+      <created>1614320851537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614320851537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,7 +112,8 @@
     <MESSAGE value="task git 2" />
     <MESSAGE value="inheritance 2" />
     <MESSAGE value="inheritance 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance 3" />
+    <MESSAGE value="inh 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="inh 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="292" key="#ESLint" timestamp="1614257479750">
@@ -116,18 +124,18 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="427" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614104214243" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1614320419263">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1614320843626">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614320419263" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614320843626" />
     <state x="453" y="155" key="FileChooserDialogImpl" timestamp="1614262337693">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="453" y="155" key="FileChooserDialogImpl/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614262337693" />
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2" timestamp="1614265934688">
+    <state x="265" y="133" key="Vcs.Push.Dialog.v2" timestamp="1614320859224">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614265934688" />
+    <state x="265" y="133" key="Vcs.Push.Dialog.v2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614320859224" />
     <state x="490" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613738738347">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
