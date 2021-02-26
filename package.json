@@ -9,7 +9,14 @@
     "lint:fix": "eslint '**/*.{js,jsx}' --fix",
     "postinstall": "husky install"
   },
-  "dependencies": {},
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0"
+  },
   "devDependencies": {
     "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -18,7 +25,8 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^5.0.9",
-    "lint-staged": "^10.5.4"
+    "lint-staged": "^10.5.4",
+    "gulp": "^4.0.2"
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --fix"

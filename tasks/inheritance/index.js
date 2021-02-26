@@ -8,7 +8,6 @@ Builder.prototype.get = function () {
 
 Builder.prototype.plus = function (...addedData) {
   const initialData = this.data
-
   return addedData.reduce((acc, current) => acc + current, initialData)
 }
 
