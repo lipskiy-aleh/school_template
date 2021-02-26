@@ -9,10 +9,7 @@ Builder.prototype.get = function () {
 Builder.prototype.plus = function (...addedData) {
   const initialData = this.data
 
-  return [...addedData].reduce((acc, current) => {
-    acc += current
-    return acc
-  }, initialData)
+  return addedData.reduce((acc, current) => acc + current, initialData)
 }
 
 function IntBuilder(int) {
@@ -28,11 +25,7 @@ IntBuilder.random = function (from, to) {
 IntBuilder.prototype = Object.create(Builder.prototype)
 
 IntBuilder.prototype.minus = function (...values) {
-  const subtractedValue = [...values].reduce((acc, current) => {
-    acc = acc + current
-
-    return acc
-  })
+  const subtractedValue = values.reduce((acc, current) => acc + current)
 
   return this.data - subtractedValue
 }
@@ -52,7 +45,8 @@ IntBuilder.prototype.mod = function (value) {
 const intBuilder = new IntBuilder(10)
 
 console.log(intBuilder.plus(2))
-console.log(intBuilder.plus(2).minus(2))
+
+// console.log(intBuilder.plus(2).minus(2)) /* error */
 
 class StringBuilder extends Builder {
   constructor(str) {
@@ -60,36 +54,36 @@ class StringBuilder extends Builder {
     this.str = str
   }
 
-  minus = (value) => {
+  minus(value) {
     return this.str.slice(0, this.str.length - value)
   }
 
-  multiply = (value) => {
+  multiply(value) {
     return this.str.repeat(value)
   }
 
-  divide = (value) => {
+  divide(value) {
     const k = Math.floor(this.str.length / value)
     return this.str.slice(0, this.str.length - k)
   }
 
-  remove = (value) => {
+  remove(value) {
     return [...this.str].reduce((acc, current) => {
+      let newStr = acc
       if (current !== value) {
-        acc = acc + current
+        newStr += current
       }
-      return acc
+      return newStr
     }, '')
   }
 
-  sub = (from, substringLength) => {
+  sub(from, substringLength) {
     return this.str.substring(from, from + substringLength)
   }
 }
 
 const strBuilder = new StringBuilder('Hello')
 
-console.log(strBuilder.minus(2))
-console.log(strBuilder.minus(2).plus(' x'))
-
-// node ./tasks/inheritance/index.js
+console.log(strBuilder.remove('l'))
+// console.log(strBuilder.minus(2)
+//   .plus(' x')) /* error */
