@@ -7,6 +7,90 @@
     <link rel="stylesheet" type="text/css" href="/index.css">
 </head>
 <body>
+<form id="form-location" name="form-location">
+    <label for="form-location__city"></label>
+    <input type="text"
+           id="form-location__city"
+           placeholder="City"
+           value="Minsk"
+           required>
+
+    <label for="form-location__country"></label>
+    <input type="text"
+           id="form-location__country"
+           placeholder="Country"
+           value="Belarus"
+           required>
+
+    <button class="form-location__btn--submit"
+            type="submit">
+        Submit
+    </button>
+</form>
+
+<div class="weather">
+    <p class="weather__paragraph"></p>
+
+    <img class="weather__img" src="" alt="weather img">
+
+    <table class="weather__table">
+        <tr class="table__temperature">
+            <td class="table__temperature-key">
+                Temperature
+            </td>
+
+            <td class="table__temperature-value"></td>
+        </tr>
+
+        <tr class="table__time">
+            <td class="table__time-key">
+                Time
+            </td>
+
+            <td class="table__time-value"></td>
+        </tr>
+
+        <tr class="table__wind-direction">
+            <td class="table__wind-direction-key">
+                Wind direction
+            </td>
+
+            <td class="table__wind-direction-value"></td>
+        </tr>
+
+        <tr class="table__feels-like">
+            <td class="table__feels-like-key">
+                Feels like
+            </td>
+
+            <td class="table__feels-like-value"></td>
+        </tr>
+
+        <tr class="table__wind-speed">
+            <td class="table__wind-speed-key">
+                Wind speed
+            </td>
+
+            <td class="table__wind-speed-value"></td>
+        </tr>
+
+        <tr class="table__sky-descriptions">
+            <td class="table__sky-descriptions-key">
+                Sky descriptions
+            </td>
+
+            <td class="table__sky-descriptions-value"></td>
+        </tr>
+
+        <tr class="table__pressure">
+            <td class="table__pressure-key">
+                Pressure
+            </td>
+
+            <td class="table__pressure-value"></td>
+        </tr>
+    </table>
+</div>
 
 <script type="module" src="js/index.js"></script>
 </body>

@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57014d8-43c5-4d53-9133-114fac931cee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/fetch/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/fetch/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks/fetch/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/lint.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/fetch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/fetch/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/fetch/js/services.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/js/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/fetch/js/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/js/weather.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/inheritance/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/inheritance/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +39,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learnJavascript" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,6 +63,28 @@
       <recent name="C:\Users\ос\WebstormProjects\school_template" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Gulp" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,7 +101,8 @@
       <workItem from="1614148074389" duration="6625000" />
       <workItem from="1614254014391" duration="1254000" />
       <workItem from="1614255308580" duration="8219000" />
-      <workItem from="1614316222552" duration="12964000" />
+      <workItem from="1614316222552" duration="34609000" />
+      <workItem from="1614411628222" duration="4781000" />
     </task>
     <task id="LOCAL-00001" summary="task git">
       <created>1613738926843</created>
@@ -149,53 +168,58 @@
     <MESSAGE value="inh 2" />
     <MESSAGE value="inh 3" />
     <MESSAGE value="inh 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="inh 4" />
+    <MESSAGE value="fetch1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fetch1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="542" y="292" key="#ESLint" timestamp="1614257479750">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="542" y="292" key="#ESLint/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614257479750" />
+    <state x="127" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614411949308">
+      <screen x="0" y="0" width="1344" height="800" />
+    </state>
+    <state x="127" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614411949308" />
     <state x="427" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614104214243">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="427" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614104214243" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1614321525494">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1614332950479">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614321525494" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614332950479" />
     <state x="342" y="178" key="EditFileWatcherDialog" timestamp="1614331209151">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="342" y="178" key="EditFileWatcherDialog/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614331209151" />
-    <state x="453" y="155" key="FileChooserDialogImpl" timestamp="1614328760069">
+    <state x="453" y="155" key="FileChooserDialogImpl" timestamp="1614411871922">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="453" y="155" key="FileChooserDialogImpl/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614328760069" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1614331324077">
+    <state x="453" y="155" key="FileChooserDialogImpl/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614411871922" />
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1614411965451">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614331324077" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1614331324077">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614411965451" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1614411965451">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614331324077" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1614331324077">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614411965451" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1614411965451">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614331324077" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1614331324077">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614411965451" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1614411965451">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614331324077" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614411965451" />
     <state x="454" y="102" key="RollbackChangesDialog" timestamp="1614329234559">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="454" y="102" key="RollbackChangesDialog/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614329234559" />
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2" timestamp="1614321533366">
+    <state x="265" y="133" key="Vcs.Push.Dialog.v2" timestamp="1614416873574">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614321533366" />
+    <state x="265" y="133" key="Vcs.Push.Dialog.v2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614416873574" />
     <state x="490" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614329266081">
       <screen x="0" y="0" width="1344" height="800" />
     </state>

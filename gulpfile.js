@@ -1,4 +1,10 @@
-const { series, parallel, src, dest, watch } = require('gulp')
+const {
+  series,
+  parallel,
+  src,
+  dest,
+  watch,
+} = require('gulp')
 const sass = require('gulp-sass')
 const cleanCSS = require('gulp-clean-css')
 const concat = require('gulp-concat')
@@ -23,12 +29,12 @@ function clean() {
     .pipe(gulpClean())
 }
 
-function copyHTML(_cb) {
+function copyHTML() {
   return src('tasks/fetch/index.html')
     .pipe(dest('build'))
 }
 
-function copyJS(_cb) {
+function copyJS() {
   return src('tasks/fetch/js/*.js')
     .pipe(dest('build/js'))
 }

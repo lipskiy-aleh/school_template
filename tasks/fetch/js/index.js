@@ -1,2 +1,1 @@
-const s = document.querySelector('body')
-
+import * as Weather from './weather.js'
