@@ -1,3 +1,60 @@
-body{
-background: #5d3535;
+:root {
+  min-height: 100%;
+  //background: linear-gradient(#FEC163, #DE4313);
+  background: linear-gradient(#695431, #512416);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Raleway, Montserrat, sans-serif;
+}
+
+#form-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#form-location__country,
+#form-location__city {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  padding: 4px;
+}
+
+.form-location__btn--submit {
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+
+.weather {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather__img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.weather__paragraph {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.weather__table {
+  td:first-child {
+    text-align: right;
+    padding-right: 10px;
+  }
 }

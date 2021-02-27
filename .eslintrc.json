@@ -20,6 +20,10 @@
     ],
     "rules": {
         "semi": ["error", "never"],
-        "linebreak-style": ["error", "unix"]
+        "linebreak-style": ["error", "unix"],
+        "import/extensions": ["error", "ignorePackages", {
+            "js": "always"
+        }],
+        "import/prefer-default-export": "off"
     }
 }
