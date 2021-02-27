@@ -84,6 +84,7 @@ class StringBuilder extends Builder {
 
 const str = new StringBuilder();
 console.log(str.plus('my').plus(' homework').multiply(2).minus(2)
+  .remove('my')
   .get());
 
 const int = new IntBuilder();
