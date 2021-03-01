@@ -19,10 +19,10 @@ async function showWeather() {
   try {
     const responseGetWeather = await getWeather(city, country)
     const dataWeather = await responseGetWeather.json()
-    // console.log(dataWeather, new Date().getMinutes())
+    console.log(dataWeather, new Date().getMinutes())
 
     if (dataWeather?.error?.code === 105) {
-      alert('Превышено количество запросов, попробуйте через минуту.')
+      alert('Превышено количество запросов, попробуйте еще раз через минуту.')
       return
     }
 
@@ -63,7 +63,7 @@ async function showWeather() {
 
     weather.style.display = 'flex'
   } catch (e) {
-    alert('Ошибка подключения к сети.')
+    alert(e)
     console.error(e)
   }
 }
@@ -75,3 +75,31 @@ formLocation.addEventListener('submit', (evt) => {
   country = formLocation.querySelector('#form-location__country').value
   showWeather()
 })
+
+const options = {
+  enableHighAccuracy: true,
+  timeout: 5000,
+  maximumAge: 0,
+}
+
+let a
+let b
+let c
+
+function success(pos) {
+  const crd = pos.coords
+
+  a = `Широта: ${crd.latitude}`
+  b = `Долгота: ${crd.longitude}`
+  c = `Плюс-минус ${crd.accuracy} метров.`
+  const x = document.querySelector('.wer')
+  x.textContent = `${a} ${b} ${c}`
+  console.log(pos)
+}
+
+function error(err) {
+  console.warn(`ERROR(${err.code}): ${err.message}`)
+}
+
+navigator.geolocation.getCurrentPosition(success, error, options)
+// git commit -m feth3 --no-verify
