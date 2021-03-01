@@ -10,7 +10,8 @@ class Builder {
 
 class StringBuilder extends Builder {
   plus(...s) {
-    return this.str + s
+    [...s].reduce((acc, it) => acc + it, this.str)
+    return this
   }
 
   minus(n) {
@@ -32,6 +33,7 @@ class StringBuilder extends Builder {
         this.str.slice(i)
       }
     }
+    return this.str
   }
 
   sub(from, n) {
@@ -41,7 +43,7 @@ class StringBuilder extends Builder {
 
 const strBuilder = new StringBuilder('Hello')
 console.log(strBuilder)
-console.log(strBuilder.plus(' all!'))
+console.log(strBuilder.plus(' all', '!'))
 console.log(strBuilder.minus(4))
 console.log(strBuilder.multiply(3))
 console.log(strBuilder.divide(4))
