@@ -1,69 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a57014d8-43c5-4d53-9133-114fac931cee" name="Default Changelist" comment="">
+    <list default="true" id="c73f3ec3-17b0-412d-b82e-f8e9607d6785" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/fetch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks/fetch/js/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/js/weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/fetch/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/style/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/inheritance/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/inheritance/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="inheritance" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ohUY7JU4gP3OzXNITbemEsQ9jx" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulpfile.js" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ос\WebstormProjects\school_template" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Gulp" type="js.build_tools.gulp">
+  <component name="RunManager" selected="Gulp.js.Unnamed">
+    <configuration name="Unnamed" type="js.build_tools.gulp" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
@@ -83,161 +43,53 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gulp.js.Unnamed" />
+      <item itemvalue="npm.lint" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a57014d8-43c5-4d53-9133-114fac931cee" name="Default Changelist" comment="" />
-      <created>1613738361614</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1613738361614</updated>
-      <workItem from="1613738362821" duration="1354000" />
-      <workItem from="1613973427740" duration="9020000" />
-      <workItem from="1613987647950" duration="2407000" />
-      <workItem from="1613990101814" duration="1435000" />
-      <workItem from="1614096170504" duration="5239000" />
-      <workItem from="1614148074389" duration="6625000" />
-      <workItem from="1614254014391" duration="1254000" />
-      <workItem from="1614255308580" duration="8219000" />
-      <workItem from="1614316222552" duration="34609000" />
-      <workItem from="1614411628222" duration="18666000" />
-      <workItem from="1614527834503" duration="3009000" />
-      <workItem from="1614600205437" duration="659000" />
-      <workItem from="1614603512512" duration="195000" />
-      <workItem from="1614604640877" duration="867000" />
-    </task>
-    <task id="LOCAL-00001" summary="task git">
-      <created>1613738926843</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1613738926843</updated>
-    </task>
-    <task id="LOCAL-00002" summary="task git 1">
-      <created>1613985945988</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1613985945988</updated>
-    </task>
-    <task id="LOCAL-00003" summary="task git 2">
-      <created>1613988982190</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1613988982190</updated>
-    </task>
-    <task id="LOCAL-00004" summary="task git 2">
-      <created>1613989943129</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613989943129</updated>
-    </task>
-    <task id="LOCAL-00005" summary="inh 2">
-      <created>1614320851537</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1614320851537</updated>
-    </task>
-    <task id="LOCAL-00006" summary="inh 3">
-      <created>1614321086473</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1614321086473</updated>
-    </task>
-    <task id="LOCAL-00007" summary="inh 4">
-      <created>1614321527880</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1614321527880</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fetch end 1">
-      <created>1614433897123</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1614433897123</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="task git" />
-    <MESSAGE value="task git 1" />
-    <MESSAGE value="task git 2" />
-    <MESSAGE value="inheritance 2" />
-    <MESSAGE value="inheritance 3" />
-    <MESSAGE value="inh 2" />
-    <MESSAGE value="inh 3" />
-    <MESSAGE value="inh 4" />
-    <MESSAGE value="fetch1" />
-    <MESSAGE value="fetch end 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetch end 1" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="542" y="292" key="#ESLint" timestamp="1614257479750">
+    <state x="127" y="55" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614710361210">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="542" y="292" key="#ESLint/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614257479750" />
-    <state x="127" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614411949308">
+    <state x="127" y="55" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710361210" />
+    <state x="453" y="155" key="FileChooserDialogImpl" timestamp="1614710242596">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="127" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614411949308" />
-    <state x="427" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614104214243">
+    <state x="453" y="155" key="FileChooserDialogImpl/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710242596" />
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1614710406394">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="427" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614104214243" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1614433886187">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1614710406394">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614433886187" />
-    <state x="342" y="178" key="EditFileWatcherDialog" timestamp="1614331209151">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1614710406394">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="342" y="178" key="EditFileWatcherDialog/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614331209151" />
-    <state x="453" y="155" key="FileChooserDialogImpl" timestamp="1614600684242">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1614710406394">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state x="453" y="155" key="FileChooserDialogImpl/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614600684242" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1614600884258">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614600884258" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1614600884258">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614600884258" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1614600884258">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614600884258" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1614600884258">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614600884258" />
-    <state x="454" y="102" key="RollbackChangesDialog" timestamp="1614329234559">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state x="454" y="102" key="RollbackChangesDialog/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614329234559" />
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2" timestamp="1614433911320">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state x="265" y="133" key="Vcs.Push.Dialog.v2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614433911320" />
-    <state x="490" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614329266081">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state x="490" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614329266081" />
-    <state x="335" y="121" width="672" height="678" key="search.everywhere.popup" timestamp="1613985431195">
-      <screen x="0" y="0" width="1344" height="800" />
-    </state>
-    <state x="335" y="121" width="672" height="678" key="search.everywhere.popup/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1613985431195" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
   </component>
 </project>
