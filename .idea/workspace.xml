@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73f3ec3-17b0-412d-b82e-f8e9607d6785" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/fetch/js/weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/js/weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/fetch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/fetch/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +14,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1pETIiUWJ08YgUdz4Oc0ZTPTxkI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gulpfile.js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Gulp.js.Unnamed">
     <configuration name="Unnamed" type="js.build_tools.gulp" nameIsGenerated="true">
@@ -63,8 +72,20 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c73f3ec3-17b0-412d-b82e-f8e9607d6785" name="Default Changelist" comment="" />
+      <created>1614747204635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614747204635</updated>
+      <workItem from="1614747213595" duration="214000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="127" y="55" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614710361210">
@@ -75,21 +96,21 @@
       <screen x="0" y="0" width="1344" height="800" />
     </state>
     <state x="453" y="155" key="FileChooserDialogImpl/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710242596" />
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1614710406394">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1614747402869">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
-    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1614710406394">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614747402869" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1614747402869">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
-    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1614710406394">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614747402869" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1614747402869">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
-    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1614710406394">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614747402869" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1614747402869">
       <screen x="0" y="0" width="1344" height="800" />
     </state>
-    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614710406394" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1344.800/160.-768.1093.574@0.0.1344.800" timestamp="1614747402869" />
   </component>
 </project>
