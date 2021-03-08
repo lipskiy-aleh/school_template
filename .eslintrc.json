@@ -19,6 +19,6 @@
         "react"
     ],
     "rules": {
-        "semi": ["error", "never"]
+        "semi": ["error", "always"]
     }
 }
