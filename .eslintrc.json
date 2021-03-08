@@ -19,6 +19,10 @@
         "react"
     ],
     "rules": {
-        "semi": ["error", "never"]
+        "semi": ["error", "never"],
+        "func-names": "off",
+        "no-plusplus": "off",
+        "no-console": "off",
+        "no-undef": "off"
     }
 }
