@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.input_form{
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.input-city{
+    width: 450px;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    width: 200px;
+    height: 46px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -1px rgb(53,167,110) inset;
+    transition: 0.2s;
+    border: none;
+}
+
+.btn:hover{
+    background: rgb(53, 167, 110);
+}
+
+.btn:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+
+.section{
+    background-image: url(./img/bg.jpg);
+    margin: 0 auto;
+    min-height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15%;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-weather{
+    margin-bottom: 20px;
+}
+P{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+}
+p:last-child{
+    margin-bottom: 0;
+}
