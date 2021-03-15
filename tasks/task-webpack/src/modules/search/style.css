@@ -1,0 +1,23 @@
+body {
+  background-size: cover;
+  background-image: url("/tasks/task-webpack/public/img/weather.jpg");
+  font-size: 20px;
+}
+
+.weather-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.weather-form>input {
+  margin-right: 20px;
+}
+
+button {
+  background-color: yellow;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}

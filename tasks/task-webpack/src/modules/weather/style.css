@@ -1,0 +1,14 @@
+.weather-img {
+  border-radius: 50%;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(37, 104, 150, 0.3);
+  border-radius: 10px;
+  color: white;
+}
