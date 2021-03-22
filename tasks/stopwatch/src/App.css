@@ -1,0 +1,50 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    background-image: url(./image/bg.jpg);
+    margin: 0 auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__stopwatch {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.stopwatch__display{
+    margin-bottom: 20px;
+}
+.time {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 32px;
+}
+
+.btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60px;
+    height: 20px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    background-color:black;
+    color:white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn:last-child{
+    margin-right: 0;
+}
+.btn:hover{
+    background-color:rgba(0, 0, 0, 0.514);
+}
