@@ -81,10 +81,11 @@ class StringBuilder extends BaseBuilder {
   }
 
   remove(removeString) {
-    const a = this.value.search(removeString)
+    const index = this.value.search(removeString)
 
-    if (a !== -1) {
-      this.value = this.value.slice(0, a) + this.value.slice(a + removeString.length)
+    if (index !== -1) {
+      this.value = this.value.slice(0, index)
+        + this.value.slice(index + removeString.length)
       this.remove(removeString)
     }
 
