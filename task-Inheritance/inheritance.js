@@ -16,8 +16,6 @@ BaseBuilder.prototype.get = function get() {
 
 function IntBuilder(value) {
   BaseBuilder.call(this, value)
-
-  this.value = value
 }
 
 IntBuilder.prototype = Object.create(BaseBuilder.prototype)
@@ -54,12 +52,6 @@ IntBuilder.random = function random(minValue, maxValue) {
 }
 
 class StringBuilder extends BaseBuilder {
-  constructor(value) {
-    super(value)
-
-    this.value = value
-  }
-
   minus(cutNumber) {
     this.value = this.value.slice(0, this.value.length - cutNumber)
 
