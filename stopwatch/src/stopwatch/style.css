@@ -1,0 +1,74 @@
+.stopwatch-content {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 233, 235);
+}
+
+.stopwatch-time {
+    font-size: 56px;
+    color: chocolate;
+    margin-bottom: 30px;
+}
+
+.stopwatch-buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.stopwatch-start {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: cornsilk;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(94, 128, 160);
+    border: 1px solid rgb(39, 60, 80);
+    border-radius: 2px;
+}
+
+.stopwatch-stop {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: cornsilk;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color:rgb(94, 128, 160);
+    border: 1px solid rgb(39, 60, 80);
+    border-radius: 2px;
+}
+
+.stopwatch-reset {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: cornsilk;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: rgb(94, 128, 160);
+    border: 1px solid rgb(39, 60, 80);
+    border-radius: 2px;
+}
+
+.stopwatch-start:hover,
+.stopwatch-stop:hover,
+.stopwatch-reset:hover {
+    background-color: rgb(39, 60, 80);
+    transition: 0,5s ease;
+}
