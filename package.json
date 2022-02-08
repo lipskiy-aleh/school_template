@@ -5,8 +5,8 @@
   "author": "Aleh <olipskiy777@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint '**/*.{js,jsx}'",
-    "lint:fix": "eslint '**/*.{js,jsx}' --fix",
+    "lint": "eslint **/*.{js,jsx}",
+    "lint:fix": "eslint **/*.{js,jsx} --fix",
     "postinstall": "husky install"
   },
   "dependencies": {},
