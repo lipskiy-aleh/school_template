@@ -1,5 +1,5 @@
-## Template for repositories with home works of pro course students
 My name is Olga. I am 39 years old. I live in Minsk.
+
 ## FAQ
 * If `yarn lint` command not work in your local PC.  
 Go to package.json file change next lines
